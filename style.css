@@ -1,0 +1,32 @@
+/* Custom CSS for enhanced visuals */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  section {
+    perspective: 1000px;
+  }
+  
+  section h2 {
+    animation: fadeIn 2s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .bg-fixed {
+    background-attachment: fixed;
+  }
+  
